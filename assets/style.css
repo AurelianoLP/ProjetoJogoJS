@@ -1,0 +1,72 @@
+body{
+    background-image: url('../assets/image/fundo.png');
+    background-size: cover;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.personagem{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 100px;
+}
+.personagem2{
+    height: 201px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.titulo h1{
+    color:#fff;
+    font-size: 25px;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fightarea{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.name{
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 2px;
+}
+#char,
+#monster{
+    flex: 1;
+}
+.lifebar{
+    height: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+.lifebar .bar{
+    height: inherit;
+    background-color: red;
+    border-radius: 5px;
+}
+button{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+button:hover{
+    color: black;
+    background-color: #999;
+}
+.log{
+    border: 1px dotted #999;
+    height: 200px;
+    overflow-y: scroll;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+}
